@@ -17,9 +17,10 @@
 
 I architect and maintain modular, production-grade financial abstractions engineered to eliminate double-charging, guarantee ACID consistency, enforce strict Address Verification Systems (AVS), and orchestrate complex settlement lifecycles at scale:
 
-* 💳 **[checkout-core](https://github.com/DeborahPanzer/checkout-core)** — High-reliability transactional payment processing engine with ACID compliance, AVS postal/street risk validation, ISO-3166 region mapping, and cryptographic idempotency.
-* 💸 **[payout-engine](https://github.com/payout-engine)** — Automated disbursement and batch settlement gateway built for Go runtime environments, featuring distributed retry queues, multi-phase commit (2PC), and scheduled rolling reserves.
-* 🛡️ **[refund-guard](https://github.com/refund-guard)** — Idempotent dispute and chargeback management middleware supporting real-time webhook state synchronization, SHA-256 cryptographic audit ledgers, and automated balance protection.
+* 💳 **[checkout-core](https://github.com/DeborahPanzer/checkout-core)** — High-reliability transactional payment processing engine with ACID compliance, AVS postal/street risk validation, ISO-3166 region mapping, and cryptographic idempotency[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span).
+* 💸 **[payout-engine](https://github.com/payout-engine)** — Automated disbursement and batch settlement gateway built for Go runtime environments, featuring distributed retry queues, multi-phase commit (2PC), and scheduled rolling reserves[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span).
+* 🛡️ **[refund-guard](https://github.com/refund-guard)** — Idempotent dispute and chargeback management middleware supporting real-time webhook state synchronization, SHA-256 cryptographic audit ledgers, and automated balance protection[span_5](start_span)[span_5](end_span).
+* 🏛️ **[ledger-vault](https://github.com/DeborahPanzer/ledger-vault)** — Immutable double-entry accounting ledger and balance reconciliation engine enforcing Serializable ACID isolation, ISO-4217 minor-unit precision, and cryptographic hash-chaining.
 
 ---
 
